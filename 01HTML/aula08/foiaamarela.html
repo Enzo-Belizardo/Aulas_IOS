@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foias Amarelas</title>
+</head>
+<center>
+
+    <body style="background-image: url(https://m.media-amazon.com/images/I/81Ckv+iJmcL._AC_UF894,1000_QL80_.jpg);">
+        <h1>Senso 2025 de foia amarelas</h1>
+        <form action="#" method="post">
+            <!-- for = para | esse label é para o elemento de id nomeUsuario -->
+            <label for="nomeUsuario">Insira seu nome</label>
+            <input type="text" id="nomeUsuario" maxlength="50">
+            <!-- A propriedade maxLenght determina a quantidade máxima de caracteres que seu input pode receber -->
+            <br>
+
+            <br>
+            <!-- Radio permite que o usuário escolha apenas UMA opção dentre várias no grupo do mesmo
+            Oque diferencia um radio do outro é seu ID que deve ser único, enquanto todos devem pertencer ao mesmo nome de grupo -->
+            <input type="radio" name="folhaAmarela" id="Folha Amarela Brilhante">
+            <label for="FolhaAmarelaBrilhante">Folha Amarela Brilhante</label>
+            
+
+            <br>
+            <input type="radio" name="folhaAmarela" id="Folha Amarela Podre">
+            <label for="FolhaAmarelaPodre">Folha Amarela Podre</label>
+            
+
+            <br>
+            <input type="radio" name="folhaAmarela" id="Folha Amarela Ressecada">
+            <label for="FolhaAmarelaRessecada">Folha Amarela Ressecada</label>
+            
+
+            <br>
+            <input type="radio" name="folhaAmarela" id="Folha Amarela Outono">
+            <label for="FolhaAmarelaOutono">Folha Amarela Outono</label>
+            
+
+            <br>
+            <br>
+            <!-- TextArea é um elemento do formulário que serve para inserir texto em grande quantidade
+            Você pode definir o tamanho do Caixa de Texto utilizando col e row
+        É possível preencher o textArea colocando um texto padrão entre as tas de abertura e fechamento -->
+            <label for="comentarioFolha"></label>
+            <textarea name="comentarioFolha" id="comentarioFolha" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+            <!-- Submit faz o envio dos dados que são preenchidos pelo usuário
+O atributo velho faz com que um texto apareça dentro do botão -->
+            <input type="submit" value="Enviar Foias">
+        </form>
+</center>
+</body>
+
+</html>

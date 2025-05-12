@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário 2 fumavam sem parar</title>
+</head>
+<body>
+    <form action="#" method="get">
+
+<!-- Select permite que o usuário selecione dentre opções determinadas -->
+<select name="sudetes" id="sudeste">
+
+<option value="SP">São paulo</option>
+<option value="Mg">Minas Gerais</option>
+<option value="RG">Rio janeiro</option>
+
+</select>
+
+<!-- Datalist cria uma lista de dados que podem ser acessados pelo restante do formulário sendo comumente utilizado para sugestões de preenchimento -->
+<datalist id="locomocao">
+    <option value="bike"></option>
+    <option value="Carro"></option>
+    <option value="Barco"></option>
+    <option value="Jégua"></option>
+    <option value="Cavalo"></option>
+</datalist>
+
+<input autocomplete="on" list="locomocao" name="meiosTransporte" id="meiosTransporte" placeholder="Seu meio de transporte">
+<br>
+<!-- o tipo ranger serve para criar um slider a fim de facilitar a entrada de dados numéricos
+um bom exemplo é um slider de volume para um aplicativo de música -->
+0
+<input type="range" id="valor_01">
+100
+
+
+    </form>
+</body>
+</html>
