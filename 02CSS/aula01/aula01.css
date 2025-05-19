@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: darkorchid;
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: normal;
+}
+
+nav{
+   display: flex;
+   background-color: black;
+   padding: 2rem;
+   
+}
+nav p{
+    color: aliceblue;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: xx-large;
+}
+
+nav img{
+    width: 20%;
+    height: 40%;
+}
+
+nav button{
+    background-color: red;
+    font-style: none;
+    height: 15vh;
+    width: 10vw;
+    border-radius: 15px;
+    border: solid 4px #fff
+    
+}
+nav button a{
+    text-decoration: none; 
+}
+nav button :hover{
+    background-color: green;
+}
+main{
+    background-color: #fff;
+    padding: 2rem;
+    color: #121212;
+    border-radius: 15px;
+    margin: 2rem;
+}
+main h1{
+ color: #fff;
+}
+main span{
+    color: green;
+}
+main section p{
+    line-height: 120%;
+}
+main form{
+    padding: auto;
+}
