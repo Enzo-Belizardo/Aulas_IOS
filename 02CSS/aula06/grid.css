@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    display: grid;
+    background-color: grey;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(5, 100px);
+    grid-template-areas:
+        "branco preto branco2 preto2 branco3"
+        "preto3 branco4 preto4 branco5 preto5"
+        "branco6 preto6 branco7 preto7 branco8"
+        "preto8 branco9 preto9 branco10 preto10"
+        "branco11 preto11 branco12 preto12 branco13";
+}
+
+.branco {
+    background-color: white;
+    grid-area: branco;
+}
+
+.preto {
+    background-color: black;
+    grid-area: preto;
+}
+
+.branco2 {
+    background-color: white;
+    grid-area: branco2;
+}
+.preto2 {
+    background-color: black;
+    grid-area: preto2;
+}
+
+.branco3 {
+    background-color: white;
+    grid-area: branco3;
+}
+.preto3 {
+    background-color: black;
+    grid-area: preto3;
+}
+
+.branco4 {
+    background-color: white;
+    grid-area: branco4;
+}
+.preto4 {
+    background-color: black;
+    grid-area: preto4;
+}
+
+.branco5 {
+    background-color: white;
+    grid-area: branco5;
+}
+.preto5 {
+    background-color: black;
+    grid-area: preto5;
+}
+
+.branco6 {
+    background-color: white;
+    grid-area: branco6;
+}
+.preto6 {
+    background-color: black;
+    grid-area: preto6;
+}
+
+.branco7 {
+    background-color: white;
+    grid-area: branco7;
+}
+.preto7 {
+    background-color: black;
+    grid-area: preto7;
+}
+
+.branco8 {
+    background-color: white;
+    grid-area: branco8;
+}
+.preto8 {
+    background-color: black;
+    grid-area: preto8;
+}
+
+.branco9 {
+    background-color: white;
+    grid-area: branco9;
+}
+.preto9 {
+    background-color: black;
+    grid-area: preto9;
+}
+
+.branco10 {
+    background-color: white;
+    grid-area: branco10;
+}
+.preto10 {
+    background-color: black;
+    grid-area: preto10;
+}
+
+.branco11 {
+    background-color: white;
+    grid-area: branco11;
+}
+.preto11 {
+    background-color: black;
+    grid-area: preto11;
+}
+
+.branco12 {
+    background-color: white;
+    grid-area: branco12;
+}
+.preto12 {
+    background-color: black;
+    grid-area: preto12;
+}
+
+.branco13 {
+    background-color: white;
+    grid-area: branco13;
+}
