@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.caixa{
+    background-color: aqua;
+    width: auto;
+    height:  100px;
+}
+.caixa-1{
+    /* grid row e grid column recebem dois valores sendo o primeiro valor inciial e o segundo valor o final da posição do elemento de acordo com as linhas de orientação do grid */
+    grid-row: 3 / 4;
+    /* Alinhar horizontal */
+    grid-column: 2 / 4;
+    /* Alinhas Verticalmente */
+}
